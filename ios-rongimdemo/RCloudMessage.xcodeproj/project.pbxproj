@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		510624851AD63A9E00348452 /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 510624831AD63A9E00348452 /* RongCloudKit.strings */; };
+		5111B07B1AE6A11A00317E71 /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5111B0781AE6A11A00317E71 /* RongIMKit.framework */; };
+		5111B07C1AE6A11A00317E71 /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5111B0791AE6A11A00317E71 /* RongIMLib.framework */; };
+		5111B07D1AE6A11A00317E71 /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5111B07A1AE6A11A00317E71 /* RongCloud.bundle */; };
 		E412BD1E1ADE19A4000DCA7A /* RCDChatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E412BD1D1ADE19A4000DCA7A /* RCDChatListCell.m */; };
 		E412BD211ADE55BF000DCA7A /* RCDAddFriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E412BD201ADE55BF000DCA7A /* RCDAddFriendTableViewController.m */; };
 		E412BD241ADE6BFB000DCA7A /* RCDHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E412BD231ADE6BFB000DCA7A /* RCDHttpTool.m */; };
 		E412BD271ADFA2A0000DCA7A /* RCDAddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E412BD261ADFA2A0000DCA7A /* RCDAddFriendViewController.m */; };
-		E424FD8B1AE523390086B015 /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E424FD891AE523390086B015 /* RongIMKit.framework */; };
-		E424FD8C1AE523390086B015 /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E424FD8A1AE523390086B015 /* RongIMLib.framework */; };
 		E42A2E591AAEE67000F4C3AB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E42A2E581AAEE67000F4C3AB /* libxml2.dylib */; };
 		E42A2E5A1AAEE76800F4C3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BFAE2A1A12184E007165B1 /* Main.storyboard */; };
-		E475A3321AE6878A009C31D7 /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E475A3311AE6878A009C31D7 /* RongCloud.bundle */; };
 		E475A3371AE6981B009C31D7 /* RCDPrivateSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E475A3361AE6981B009C31D7 /* RCDPrivateSettingViewController.m */; };
 		E4BFAE211A1217C0007165B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BFAE201A1217C0007165B1 /* AppDelegate.m */; };
 		E4BFAE251A121839007165B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BFAE221A121839007165B1 /* Images.xcassets */; };
@@ -130,6 +130,9 @@
 /* Begin PBXFileReference section */
 		510624841AD63A9E00348452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = framework/en.lproj/RongCloudKit.strings; sourceTree = SOURCE_ROOT; };
 		510624861AD63AA500348452 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "framework/zh-Hans.lproj/RongCloudKit.strings"; sourceTree = SOURCE_ROOT; };
+		5111B0781AE6A11A00317E71 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = framework/RongIMKit.framework; sourceTree = SOURCE_ROOT; };
+		5111B0791AE6A11A00317E71 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = framework/RongIMLib.framework; sourceTree = SOURCE_ROOT; };
+		5111B07A1AE6A11A00317E71 /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = framework/RongCloud.bundle; sourceTree = SOURCE_ROOT; };
 		E412BD1C1ADE19A4000DCA7A /* RCDChatListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDChatListCell.h; sourceTree = SOURCE_ROOT; };
 		E412BD1D1ADE19A4000DCA7A /* RCDChatListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDChatListCell.m; sourceTree = SOURCE_ROOT; };
 		E412BD1F1ADE55BF000DCA7A /* RCDAddFriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDAddFriendTableViewController.h; sourceTree = SOURCE_ROOT; };
@@ -138,14 +141,9 @@
 		E412BD231ADE6BFB000DCA7A /* RCDHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDHttpTool.m; sourceTree = SOURCE_ROOT; };
 		E412BD251ADFA2A0000DCA7A /* RCDAddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDAddFriendViewController.h; sourceTree = SOURCE_ROOT; };
 		E412BD261ADFA2A0000DCA7A /* RCDAddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDAddFriendViewController.m; sourceTree = SOURCE_ROOT; };
-		E424FD891AE523390086B015 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = "../../ios-rongimkit/build/Debug-iphoneos/RongIMKit.framework"; sourceTree = "<group>"; };
-		E424FD8A1AE523390086B015 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = "../../ios-rongimlib/build/Debug-iphoneos/RongIMLib.framework"; sourceTree = "<group>"; };
 		E42A2E581AAEE67000F4C3AB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		E475A3311AE6878A009C31D7 /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = "../../ios-rongimkit/RongCloud.bundle"; sourceTree = "<group>"; };
 		E475A3351AE6981B009C31D7 /* RCDPrivateSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDPrivateSettingViewController.h; sourceTree = SOURCE_ROOT; };
 		E475A3361AE6981B009C31D7 /* RCDPrivateSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDPrivateSettingViewController.m; sourceTree = SOURCE_ROOT; };
-		E4B55CDE1AE51C110059BEF5 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = "../../ios-rongimkit/build/Debug-iphoneos/RongIMKit.framework"; sourceTree = "<group>"; };
-		E4B55CDF1AE51C110059BEF5 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = "../../ios-rongimlib/build/Debug-iphoneos/RongIMLib.framework"; sourceTree = "<group>"; };
 		E4BFAE1F1A1217C0007165B1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RCloudMessage/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		E4BFAE201A1217C0007165B1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RCloudMessage/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		E4BFAE221A121839007165B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RCloudMessage/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -359,19 +357,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E424FD8B1AE523390086B015 /* RongIMKit.framework in Frameworks */,
-				E424FD8C1AE523390086B015 /* RongIMLib.framework in Frameworks */,
 				E4FCD7C41AD69DFB00915650 /* ImageIO.framework in Frameworks */,
 				E4C331081A0C728500E31B9A /* libz.dylib in Frameworks */,
 				E42A2E591AAEE67000F4C3AB /* libxml2.dylib in Frameworks */,
 				E4C497231A2484DB00098C8A /* MapKit.framework in Frameworks */,
 				E4C497211A24849E00098C8A /* CoreLocation.framework in Frameworks */,
 				E4C3310E1A0C72A000E31B9A /* SystemConfiguration.framework in Frameworks */,
+				5111B07C1AE6A11A00317E71 /* RongIMLib.framework in Frameworks */,
 				E4E939731AD65A95001E0AC6 /* libMobClickLibrary.a in Frameworks */,
 				E4C3310A1A0C728D00E31B9A /* OpenGLES.framework in Frameworks */,
 				E4C331061A0C727C00E31B9A /* libstdc++.dylib in Frameworks */,
 				E4C331041A0C726F00E31B9A /* libsqlite3.dylib in Frameworks */,
 				E4C331021A0C726700E31B9A /* libc++.dylib in Frameworks */,
+				5111B07B1AE6A11A00317E71 /* RongIMKit.framework in Frameworks */,
 				E4C330FE1A0C725200E31B9A /* CoreVideo.framework in Frameworks */,
 				E4C330FC1A0C724A00E31B9A /* CoreTelephony.framework in Frameworks */,
 				E4C330FA1A0C724400E31B9A /* CoreMedia.framework in Frameworks */,
@@ -570,11 +568,9 @@
 		E4C4E7E71A0A309100140067 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E475A3311AE6878A009C31D7 /* RongCloud.bundle */,
-				E424FD891AE523390086B015 /* RongIMKit.framework */,
-				E424FD8A1AE523390086B015 /* RongIMLib.framework */,
-				E4B55CDE1AE51C110059BEF5 /* RongIMKit.framework */,
-				E4B55CDF1AE51C110059BEF5 /* RongIMLib.framework */,
+				5111B0781AE6A11A00317E71 /* RongIMKit.framework */,
+				5111B0791AE6A11A00317E71 /* RongIMLib.framework */,
+				5111B07A1AE6A11A00317E71 /* RongCloud.bundle */,
 				E4FCD7C31AD69DFB00915650 /* ImageIO.framework */,
 				E42A2E581AAEE67000F4C3AB /* libxml2.dylib */,
 				E4C497221A2484DB00098C8A /* MapKit.framework */,
@@ -957,7 +953,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42A2E5A1AAEE76800F4C3AB /* Main.storyboard in Resources */,
-				E475A3321AE6878A009C31D7 /* RongCloud.bundle in Resources */,
+				5111B07D1AE6A11A00317E71 /* RongCloud.bundle in Resources */,
 				E4BFAE251A121839007165B1 /* Images.xcassets in Resources */,
 				510624851AD63A9E00348452 /* RongCloudKit.strings in Resources */,
 			);
@@ -1190,9 +1186,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 利武 胡 (423D8Y6G3S)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 利武 胡 (423D8Y6G3S)";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/framework";
+				CODE_SIGN_IDENTITY = "iOS Development: Gang Xu (5J5797G4YQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: Gang Xu (5J5797G4YQ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/framework",
+					"$(PROJECT_DIR)/framework",
+				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Info.plist";
@@ -1207,7 +1206,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
 				PRODUCT_NAME = RCloudMessage;
-				PROVISIONING_PROFILE = "1c56bb61-449d-45df-acab-9cf919483b7e";
+				PROVISIONING_PROFILE = "7051700d-628d-46bc-9b51-d8eabc256447";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
@@ -1221,7 +1220,10 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Feinno Communication Tech Co. Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Feinno Communication Tech Co. Ltd.";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/framework",
+					"$(PROJECT_DIR)/framework",
+				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Info.plist";
@@ -1236,7 +1238,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
 				PRODUCT_NAME = RCloudMessage;
-				PROVISIONING_PROFILE = "1c56bb61-449d-45df-acab-9cf919483b7e";
+				PROVISIONING_PROFILE = "CFE5D2E7-E15A-4D4A-9B31-05C78CEF4FDE";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;

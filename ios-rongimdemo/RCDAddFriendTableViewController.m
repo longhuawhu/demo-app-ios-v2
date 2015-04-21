@@ -70,11 +70,13 @@
 }
 - (IBAction)actionDisagree:(id)sender {
     
-    [AFHttpTool processRequestFriend:self.userInfo.userId withIsAccess:NO success:^(id response) {
-        
-    } failure:^(NSError *err) {
-        
-    }];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil message:@"已拒绝对方好友申请！" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];;
+    [alertView show];
+//    [AFHttpTool processRequestFriend:self.userInfo.userId withIsAccess:NO success:^(id response) {
+//        
+//    } failure:^(NSError *err) {
+//        
+//    }];
 
 }
 
