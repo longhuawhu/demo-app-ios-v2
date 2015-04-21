@@ -1,0 +1,14 @@
+build/
+bin/
+xcuserdata/
+project.xcworkspace/
+.DS_Store
+RongIMKit.framework/
+RongIMLib.framework/
+RongIMToolkit.framework/
+framework/en.lproj/RongCloudKit.strings
+framework/zh-Hans.lproj/RongCloudKit.strings
+framework/
+framework
+framework/RongCloud.bundle
+framework/RongCloud.bundle/
