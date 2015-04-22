@@ -1188,10 +1188,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CODE_SIGN_IDENTITY = "iOS Development: Gang Xu (5J5797G4YQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: Gang Xu (5J5797G4YQ)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/framework",
-					"$(PROJECT_DIR)/framework",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/framework";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Info.plist";
@@ -1220,10 +1217,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Feinno Communication Tech Co. Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Feinno Communication Tech Co. Ltd.";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/framework",
-					"$(PROJECT_DIR)/framework",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/framework";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Info.plist";
