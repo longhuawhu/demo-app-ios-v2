@@ -1,0 +1,36 @@
+/* 
+  RongCloudKit.strings
+  RongIMKit
+
+  Created by xugang on 1/15/15.
+  Copyright (c) 2015 RongCloud. All rights reserved.
+*/
+"RC:ImgMsg" = "[图片]";
+"RC:LBSMsg" = "[位置]";
+"RC:VcMsg" = "[语音]";
+"RC:ImgTextMsg" = "[图文]";
+"RC:VoipCallMsg" = "[语音通话]";
+"RC:VoipFinishMsg" = "[语音结束]";
+"RC:PSMultiImgTxtMsg" = "[图文]";
+"RC:PSImgTxtMsg" = "[图文]";
+"Draft"="[草稿]";
+"conversation_private_collection_title" = "聊天助手";
+"conversation_customer_collection_title" = "客服助手";
+"conversation_group_collection_title" = "群助手";
+"conversation_discussion_collection_title" = "讨论组助手";
+"conversation_systemMessage_collection_title" = "系统消息助手";
+"hold_to_talk_title"="按住通话";
+"release_to_send_title"="松开发送";
+"slide_up_to_cancel_title"="手指上滑 取消发送";
+"release_to_cancel_title"="手指松开 取消发送";
+"whiteSpaceMessage"="不能发送空白消息";
+"OK"="确定";
+"Cancel"="取消";
+"speakerAccessRight"="您没有麦克风访问权限，请前往设置!";
+"VoIP_Mute"="静音";
+"VoIP_Speaker"="免提";
+"VoIP_End"="结束";
+"VoIP_Answer"="应答";
+"VoIP_Reject"="拒接";
+"VoIP_Drop"="挂断";
+"Request_Friends_extra"="请求添加好友消息";

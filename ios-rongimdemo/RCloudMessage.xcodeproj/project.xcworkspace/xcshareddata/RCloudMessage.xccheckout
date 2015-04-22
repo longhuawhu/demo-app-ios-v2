@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9132C514-20B5-4D8E-9EB0-E1A3970D473A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RCloudMessage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>02C4DCF1A906BC527E6EE089DB938322563BE50D</key>
+		<string>gitlab.rongcloud.net:ios-team/ios-rongimdemo.git</string>
+		<key>824D03F5D265E78A7A21B83EAD4AA60F81410FB4</key>
+		<string>github.com:rongcloud/demo-app-ios-v2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RCloudMessage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>02C4DCF1A906BC527E6EE089DB938322563BE50D</key>
+		<string>../..</string>
+		<key>824D03F5D265E78A7A21B83EAD4AA60F81410FB4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>gitlab.rongcloud.net:ios-team/ios-rongimdemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>02C4DCF1A906BC527E6EE089DB938322563BE50D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>824D03F5D265E78A7A21B83EAD4AA60F81410FB4</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>02C4DCF1A906BC527E6EE089DB938322563BE50D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-rongimdemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
